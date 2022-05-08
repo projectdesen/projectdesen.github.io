@@ -1,0 +1,28 @@
+*{
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px;
+}
+
+.primele_3{
+    margin-left:75px;
+    margin-right:75px;
+    width:600px;
+    height:350px;
+}
+
+.primele_3{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:25px;
+}
+img{
+    border: solid #5B6DCD 10px;
+}
+
+.title{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:15px 15px 15px 15px;
+}
